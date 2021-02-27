@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: ResourceHog
+Bundle-SymbolicName: ResourceHog
+Bundle-Version: 1.0.0.qualifier
+Automatic-Module-Name: ResourceHog
+Bundle-RequiredExecutionEnvironment: JavaSE-11
+Import-Package: org.osgi.service.component.annotations
+Require-Bundle: org.eclipse.core.resources;bundle-version="3.14.0"
+Service-Component: OSGI-INF/internal.ResourceHog.xml
+Bundle-ActivationPolicy: lazy
