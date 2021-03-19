@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.1.0" activate="activate" name="ComponentDemo2">
+   <implementation class="org.eclipse.bug571568.SlowComponent"/>
+   <reference bind="setExampleService" cardinality="1..1" interface="org.eclipse.bug571568.service.IExampleService" name="IExampleService" policy="static"/>
+   <property name="delay" type="Integer" value="500"/>
+</scr:component>

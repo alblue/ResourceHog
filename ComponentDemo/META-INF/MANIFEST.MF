@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: ComponentDemo
+Bundle-SymbolicName: ComponentDemo
+Bundle-Version: 1.0.0.qualifier
+Automatic-Module-Name: ComponentDemo
+Bundle-RequiredExecutionEnvironment: JavaSE-11
+Import-Package: org.osgi.framework;version="1.10.0",org.eclipse.bug571568.service
+Service-Component: OSGI-INF/*.xml
+Bundle-ActivationPolicy: lazy
